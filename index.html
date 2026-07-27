@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>個人作品集 | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 頂部導覽列 -->
+  <nav class="navbar">
+    <div class="logo">MyPortfolio</div>
+    <ul class="nav-links">
+      <li><a href="#about">關於我</a></li>
+      <li><a href="#skills">專業技能</a></li>
+      <li><a href="#projects">精選作品</a></li>
+      <li><a href="#contact">聯絡方式</a></li>
+    </ul>
+  </nav>
+
+  <!-- 首頁 Hero 區 -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>你好，我是 <span id="typing-text" class="highlight"></span><span class="cursor">|</span> 👋</h1>
+      <p>專注於打造簡潔、現代且高品質的網頁體驗。</p>
+      <a href="#projects" class="btn">探索我的作品</a>
+    </div>
+  </header>
+
+  <!-- 關於我 -->
+  <section id="about" class="container">
+    <h2 class="section-title">關於我</h2>
+    <div class="about-card">
+      <p>熱愛程式開發與介面設計，喜歡將想法轉化為實體的網頁專案。目前持續專注於前端技術，追求良好的使用者體驗與簡潔的程式碼架構。</p>
+    </div>
+  </section>
+
+  <!-- 技能牆 -->
+  <section id="skills" class="container">
+    <h2 class="section-title">專業技能</h2>
+    <div class="skills-grid">
+      <div class="skill-tag">HTML5</div>
+      <div class="skill-tag">CSS3 / Flexbox</div>
+      <div class="skill-tag">JavaScript (ES6+)</div>
+      <div class="skill-tag">Git / GitHub</div>
+      <div class="skill-tag">RWD 響應式切版</div>
+    </div>
+  </section>
+
+  <!-- 作品集區 -->
+  <section id="projects" class="container">
+    <h2 class="section-title">精選作品</h2>
+    <div class="projects-grid">
+      
+      <div class="project-card">
+        <div class="project-info">
+          <h3>個人作品集網站</h3>
+          <p>使用純 HTML 與 CSS 打造的響應式個人主頁，具備現代暗色風格與毛玻璃效果。</p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+          <a href="#" class="project-link">查看專案 →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-info">
+          <h3>互動式待辦清單</h3>
+          <p>支援任務新增、刪除與狀態切換的前端實作練習。</p>
+          <div class="project-tags">
+            <span>JavaScript</span>
+            <span>CSS</span>
+          </div>
+          <a href="#" class="project-link">查看專案 →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 聯絡方式 -->
+  <section id="contact" class="container">
+    <h2 class="section-title">與我聯絡</h2>
+    <div class="contact-box">
+      <p>如果你對我的專案感興趣，或有任何合作想法，歡迎透過以下管道聯繫我！</p>
+      <div class="social-links">
+        <a href="#" class="social-btn">GitHub</a>
+        <a href="#" class="social-btn">Discord</a>
+        <a href="#" class="social-btn">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Portfolio. Built with pure HTML, CSS & JavaScript.</p>
+  </footer>
+
+  <!-- 引入 JavaScript 邏輯 -->
+  <script src="main.js"></script>
+</body>
+</html>
